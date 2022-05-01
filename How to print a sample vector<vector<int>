@@ -1,0 +1,16 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+
+int main() {
+	std::cout << "Testing: 1 , 2, ,3 ...\n";
+	vector<vector<int>> graph = { {1,2}, {3, 4,5}};
+	for (auto i = graph.begin(); i < graph.end(); i++) {
+		for (auto j = 0; j < (*i).size(); j++) {
+			cout << (*i)[j];
+		}
+		cout << endl;
+	}
+	return 0;
+}
