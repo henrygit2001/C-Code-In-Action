@@ -1,0 +1,15 @@
+//Now, remember: a set is ordered, while this is unordered. 
+//This will print out: 543687
+std::cout << "\nNew Program:" << endl;
+	unordered_set<int> s;
+	s.insert(5);
+	s.insert(4);
+	s.insert(3);
+	s.insert(6);
+	s.insert(8);
+	s.insert(7);
+	for (auto i = s.begin(); i != s.end(); i++) {
+		cout << *i;
+	}
+	return 0;
+}
