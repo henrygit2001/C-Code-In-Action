@@ -1,3 +1,4 @@
+	//This should print out (3,4,5,6) in order
 	std::cout << "\nNew Program:" << endl;
 	set<int> s;
 	s.insert(5);
