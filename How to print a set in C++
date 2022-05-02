@@ -1,0 +1,11 @@
+	std::cout << "\nNew Program:" << endl;
+	set<int> s;
+	s.insert(5);
+	s.insert(4);
+	s.insert(3);
+	s.insert(6);
+	for (auto i = s.begin(); i != s.end(); i++) {
+		cout << *i;
+	}
+	return 0;
+}
